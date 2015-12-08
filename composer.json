@@ -1,0 +1,14 @@
+{
+    "name": "wildalmighty/battleships",
+    "description": "Battleship game",
+    "authors": [
+        {
+            "name": "Petar Marinov",
+            "email": "eng.petar.marinov@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "": "app/" }
+    },
+    "require": {}
+}

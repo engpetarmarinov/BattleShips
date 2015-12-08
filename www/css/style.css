@@ -1,0 +1,62 @@
+h1 {
+	text-align: center;
+}
+#board {
+	position: relative;
+	width: 80%;
+	margin: 0 auto;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.rowHeader {
+	position: absolute;
+	top: 0;
+	left: -22px;
+	width: 22px;
+	float: left;
+}
+.rowHeader .rowNum {
+	width: 22px;
+	height: 22px;
+	display: block;
+}
+.colHeader {
+	position: absolute;
+	top: -22px;
+	left: 0;
+	width: 100%;
+}
+.colHeader .colNum {
+	float: left;
+	text-align: center;
+	width: 22px;
+	height: 20px;
+	display: inline-block;
+}
+#msg {
+	color: red;
+	font-size: 18pt;
+}
+ul.row {
+	height: 22px;
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+ul.row li {	
+	list-style: none;
+	float: left;
+	width: 20px;
+	height: 20px;
+	border: 1px solid gray;
+	text-align: center;
+	vertical-align: middle;
+}
+ul.row li:hover {
+	cursor: cell;
+	background-color: pink;
+}
