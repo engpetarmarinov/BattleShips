@@ -1,17 +1,19 @@
 {
-    "name": "wildalmighty/battleships",
-    "description": "Battleship game",
-    "authors": [
-        {
-            "name": "Petar Marinov",
-            "email": "eng.petar.marinov@gmail.com"
-        }
-    ],
-    "autoload": {
-        "psr-4": { "": "app/" }
-    },
-    "require": {},
+	"name": "wildalmighty/battleships",
+	"description": "Battleship game",
+	"authors": [
+		{
+			"name": "Petar Marinov",
+			"email": "eng.petar.marinov@gmail.com"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"": "app/"
+		}
+	},
+	"require": {},
 	"require-dev": {
-        "phpunit/phpunit": "5.1.*"
-    }
+		"phpunit/phpunit": "5.1.*"
+	}
 }
