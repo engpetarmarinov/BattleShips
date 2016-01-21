@@ -124,6 +124,14 @@ class Board {
 		return $ship;
 	}
 
+	/**
+	 * Generates coordinates on the board
+	 * @param int $length
+	 * @param int $direction
+	 * @param int $row
+	 * @param int $col
+	 * @return array
+	 */
 	private function generateShipPoints($length, $direction, $row, $col) {
 		$points = array(
 			array($row, $col),
