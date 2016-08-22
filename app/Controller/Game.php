@@ -46,7 +46,7 @@ abstract class Game {
 	/**
 	 * Action fire
 	 */
-	abstract public function fireAction($input = null);
+	abstract public function fireAction();
 
 	/**
 	 * Action to show the ships on the grid

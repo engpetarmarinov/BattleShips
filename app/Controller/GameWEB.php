@@ -43,16 +43,16 @@ class GameWEB extends Game {
 		header('Location: index.php');
 	}
 
-	public function fireAction($input = null) {
+	public function fireAction() {
 
-		$row = isset($_POST['row']) ? (int) $_POST['row'] : false;
-		$col = isset($_POST['col']) ? (int) $_POST['col'] : false;
+		$row = filter_input(INPUT_POST, 'row');
+		$col = filter_input(INPUT_POST, 'col');
 
 		$view = new \View();
 
 		if (!$row || !$col) {
 			$view->dislayJson(array('status' => 0, 'msg' => 'Invalid coordinates!'));
-			exit;
+			return;
 		}
 
 		//fire
